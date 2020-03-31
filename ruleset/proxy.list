@@ -224,13 +224,5 @@ DOMAIN-SUFFIX,co.jp
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,exxx.ml
 
-// FINAL
-AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
-
-AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,*Safari*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,*Networking*), (NOT,((GEOIP,CN))))
-
 // Application
 PROCESS-NAME,Telegram
